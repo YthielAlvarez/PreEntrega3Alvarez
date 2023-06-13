@@ -23,14 +23,16 @@ float: right;
 }
 nav{
     text-align: center;
-    padding: 50px 50px 0 0;
+    padding: 9px 50px 0 0;
+
 }
 nav > a{
     color: #fff;
-    font-weight: 50;
+    font-weight: 30;
     text-decoration: none;
     margin-right: 10px;
     font-size: 35px;
+    display: block;
 }
 nav > a:hover{
     text-decoration: underline;
@@ -101,7 +103,7 @@ footer{
 width: 350px;
 }
 table{
-    border: #24262b;
+    border: #040505;
 }
 table p{
     text-align: center;
@@ -236,3 +238,103 @@ p{
 	outline:0;
 	border: 1px solid #97d848;
 }
+    @media (max-width: 768px){
+        h1{ color: red;
+            font-size: 20px;
+        }
+        .carrito { 
+        }
+        h2{ font-size: 30px;
+            text-align: center;
+            display: block;
+          
+        }
+        .titulo {
+            font-size: 50px;
+            color: white;
+          
+            
+        }
+        .sobreimagen{
+         
+        }
+        .sobreustexto h3{
+            font-size: 25px;
+          
+            color: white;
+    
+        }
+        .sobreustexto p{
+            font-size: 15px;
+        
+            color: white;
+        }
+        body{
+         background-color: #570252;
+        }
+        .sobreimagenes{
+            width: 90%;
+            
+        }
+        }
+
+        @media (max-width: 480px){
+            h1{ color: red;
+                font-size: 11px;
+            }
+            .carrito { display: none;
+            }
+            h2{ margin: 1%;
+                font-size: 23px;
+                text-align: center;
+                color: #c40821;
+            }
+            .sobreustexto h3{
+                font-size: 25px;
+                color: rgb(0, 0, 0);
+            }
+            .sobreustexto p{
+                font-size: 15px;
+                color: rgb(0, 0, 0);
+            }
+            .titulo {
+                font-size: 40px;
+                color: rgb(15, 15, 15);   
+            }
+            .sobreimagen{
+                display: none;
+            }
+            body{
+            background-color: #113a91;
+            }
+            .sobreimagenes{
+                width: 50%;
+                max-width: 400px;
+                text-align: center;
+            }
+            .sobrenosotros p{
+                font-size: 90%;
+                text-align: center;
+                padding: 10%;
+                border-radius: ;
+            }
+            .contact_form {
+                width: 90% ;
+            }
+            #nombre{
+                width: 90%;
+            }
+            #email{
+                width: 90%;
+            }
+            #telefono{
+                width: 90%;
+            }
+            #mensaje{
+                width: 90%;
+            }
+            #enviar{
+                width: 90%;
+            }
+
+            }
