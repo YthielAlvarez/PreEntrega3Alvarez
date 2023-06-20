@@ -1,0 +1,65 @@
+@media (max-width: 768px){
+h1{ 
+         color: $rojo;
+         font-size: $tamanio-texto;}
+h2{ 
+         font-size: $tamanio-subtitulo;
+         text-align: center;
+         display: block;}
+.titulo{
+         font-size: $tamanio-grande;
+         color: $blanco;}
+.sobreustexto h3{
+         font-size: $tamanio-fuente;
+         color: $blanco;}
+.sobreustexto p{
+         font-size: $tamanio-pequeno;
+         color: $blanco;}
+body{
+         background-color: $violeta;}
+.sobreimagenes{
+         width: 90%;}   }
+@media (max-width: 480px){
+h1{ 
+         color: $rojo;
+         font-size: $tamanio-chico;}
+.carrito{ 
+         display: none;}
+h2{
+         margin: 1%;
+         font-size: $tamanio-texto;
+         text-align: center;
+         color: $rojo;}
+.sobreustexto h3{
+         font-size: $tamanio-fuente;
+         color: $negro;}
+.sobreustexto p{
+         font-size: $tamanio-pequeno;
+         color: $negro;}
+.titulo{
+         font-size: $tamanio-titulo;
+         color: $negro;}
+.sobreimagen{
+         display: none;}
+body{
+         background-color: $azul;}
+.sobreimagenes{
+         width: 50%;
+         max-width: 400px;
+         text-align: center;}
+.sobrenosotros p{
+         font-size: 90%;
+         text-align: center;
+         padding: 10%;}
+.contact_form{
+         width: 90% ;}
+#nombre{
+         width: 90%;}
+#email{
+         width: 90%;}
+#telefono{
+         width: 90%;}
+#mensaje{
+         width: 90%;}
+#enviar{
+         width: 90%;}   }

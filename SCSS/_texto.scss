@@ -1,0 +1,26 @@
+h1{
+	     font-size: $tamanio-texto;}
+h4{
+         font-size: $tamanio-titulo;  
+         text-align: letf; 
+         padding-bottom: 20px; 
+         color: $rosa;}
+h3{
+         font-size: $tamanio-pequeno; 
+         padding-bottom: 30px;
+         color: $negro;}
+p{
+         font-size: $tamanio-pequeno; 
+         color: $negro;}
+textarea{
+         background-color: $blanco; 
+         width: 405px; 
+         height: 150px; 
+         border-radius: 5px;  
+         border-style: solid; 
+         border-width: 1px; 
+         border-color: $rosa; 
+         margin-top: 10px;  
+         padding-left: 10px;
+         margin-bottom: 20px; 
+         padding-top: 15px;}
