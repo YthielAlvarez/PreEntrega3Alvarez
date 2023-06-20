@@ -11,3 +11,179 @@
 @import "input";
 @import "main";
 @import "labelyspan";
+@media (max-width: 1024px) {
+    h1 {
+      color: red;
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 30px;
+      text-align: center;
+      display: block;
+    }
+    .titulo {
+      font-size: 50px;
+      color: white;
+    }
+    .sobreustexto h3 {
+      font-size: 25px;
+      color: white;
+    }
+    .sobreustexto p {
+      font-size: 15px;
+      color: white;
+    }
+    body {
+      background-color: violet;
+    }
+    .sobreimagenes {
+      width: 75%;
+    }
+  }
+@media (max-width: 768px) {
+    h1 {
+      color: red;
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 30px;
+      text-align: center;
+      display: block;
+    }
+    .titulo {
+      font-size: 50px;
+      color: white;
+    }
+    .sobreustexto h3 {
+      font-size: 25px;
+      color: white;
+    }
+    .sobreustexto p {
+      font-size: 15px;
+      color: white;
+    }
+    body {
+      background-color: violet;
+    }
+    .sobreimagenes {
+      width: 75%;
+    }
+  }
+  @media (max-width: 720px) {
+    h1 {
+      color: red;
+      font-size: 11px;
+    }
+    .carrito {
+      display: none;
+    }
+    h2 {
+      margin: 1%;
+      font-size: 20px;
+      text-align: center;
+      color: red;
+    }
+    .sobreustexto h3 {
+      font-size: 25px;
+      color: black;
+    }
+    .sobreustexto p {
+      font-size: 15px;
+      color: black;
+    }
+    .titulo {
+      font-size: 35px;
+      color: black;
+    }
+    .sobreimagen {
+      display: none;
+    }
+    body {
+      background-color: rgb(22, 141, 156);
+    }
+    .sobreimagenes {
+        width: 75%;
+      }
+    .sobrenosotros p {
+      font-size: 90%;
+      text-align: center;
+      padding: 10%;
+    }
+    .contact_form {
+      width: 90%;
+    }
+    #nombre {
+      width: 90%;
+    }
+    #email {
+      width: 90%;
+    }
+    #telefono {
+      width: 90%;
+    }
+    #mensaje {
+      width: 90%;
+    }
+    #enviar {
+      width: 90%;
+    }
+  }
+  @media (max-width: 480px) {
+    h1 {
+      color: red;
+      font-size: 11px;
+    }
+    .carrito {
+      display: none;
+    }
+    h2 {
+      margin: 1%;
+      font-size: 20px;
+      text-align: center;
+      color: red;
+    }
+    .sobreustexto h3 {
+      font-size: 25px;
+      color: black;
+    }
+    .sobreustexto p {
+      font-size: 15px;
+      color: black;
+    }
+    .titulo {
+      font-size: 35px;
+      color: black;
+    }
+    .sobreimagen {
+      display: none;
+    }
+    body {
+      background-color: rgb(17, 190, 104);
+    }
+    .sobreimagenes {
+        width: 75%;
+      }
+    .sobrenosotros p {
+      font-size: 90%;
+      text-align: center;
+      padding: 10%;
+    }
+    .contact_form {
+      width: 90%;
+    }
+    #nombre {
+      width: 90%;
+    }
+    #email {
+      width: 90%;
+    }
+    #telefono {
+      width: 90%;
+    }
+    #mensaje {
+      width: 90%;
+    }
+    #enviar {
+      width: 90%;
+    }
+  }
