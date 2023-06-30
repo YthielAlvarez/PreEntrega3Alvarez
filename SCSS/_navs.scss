@@ -1,16 +1,15 @@
 nav{
-    text-align: center;
-    padding: 9px 50px 0 0;
-
+    @include text(center, none);
+    @include padding-left-right(0px, 50px);
+    @include padding-top-bottom(5px, 0px);
 }
 nav > a{
+    @include text(none, none);
+    @include margin-right-left(10px, 0px);
     color: $blanco;
-    text-decoration: none;
-    margin-right: 10px;
     font-size: $tamanio-subtitulo;
     display: block;
 }
-// font-weight: 30;
 nav > a:hover{
     text-decoration: underline;
 }

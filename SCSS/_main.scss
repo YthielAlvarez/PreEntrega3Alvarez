@@ -1,16 +1,13 @@
 header{
-         width: 100%;
-         height: 200px;
-         background-color: $celeste;
-         background-size: cover;
-         background-attachment: fixed;
+    @include ancho-y-largo(100%, 200px);
+    @include background($celeste, cover, fixed);
          position: relative;}
 body{
          font-family: $arial;}
 footer{
-         background-color: $negro;
+    @include background($negro, none,none);
          padding: 60px 0;}
 body{
-         height: 100%; 
-         font-family: $sans;
-         background-color: $rosa;}
+    @include ancho-y-largo(100%,none);
+    @include background($rosa,none,none);
+         font-family: $sans;}

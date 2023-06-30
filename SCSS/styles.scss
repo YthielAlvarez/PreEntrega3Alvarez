@@ -11,6 +11,7 @@
 @import "input";
 @import "main";
 @import "labelyspan";
+@import "mixin"
 @media (max-width: 1024px) {
     h1 {
       color: red;

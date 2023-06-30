@@ -1,15 +1,10 @@
 button{
-	     height: 45px; 
-	     padding-left: 5px;
-	     padding-right: 5px; 	
-	     margin-bottom: 20px; 
-	     margin-top: 10px; 	
+	@include ancho-y-largo(420px, 45px);
+	@include padding-left-right(5px, 5px);
+	@include margin-bottom-top(20px, 10px);
+	@include background($rosa,none,none);
+	@include border($rosa, solid, 10px, 0px);
 	     text-transform: uppercase;
-	     background-color: $rosa; 
-	     border-color: $rosa; 
-	     border-style: solid; 
-	     border-radius: 10px;	
-	     width: 420px;   
          cursor: pointer;
              p{
                     color: $blanco} 

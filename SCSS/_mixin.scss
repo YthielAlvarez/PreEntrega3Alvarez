@@ -1,0 +1,36 @@
+@mixin ancho-y-largo($width, $height){
+    width: $width;
+    height: $height;
+}
+@mixin padding-left-right($padding-left, $padding-right){
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+    
+}
+@mixin padding-top-bottom($padding-top, $padding-bottom){
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom;
+}
+@mixin margin-bottom-top($margin-bottom, $margin-top){
+    margin-bottom: $margin-bottom;
+    margin-top: $margin-top;
+}
+@mixin margin-right-left($margin-righ, $margin-left){
+    margin-right: $margin-righ;
+    margin-left: $margin-left;
+}
+@mixin background($background-color, $background-size, $background-attachment){
+    background-color: $background-color;
+    background-size: $background-size;
+    background-attachment: $background-attachment;
+}
+@mixin border($border-color, $border-style, $border-radius, $border-width){
+    border-color: $border-color;
+    border-style: $border-style;
+    border-radius: $border-radius;
+    border-width: $border-width;
+}
+@mixin text($text-align, $text-decoration){
+    text-align: $text-align;
+    text-decoration: $text-decoration;
+}

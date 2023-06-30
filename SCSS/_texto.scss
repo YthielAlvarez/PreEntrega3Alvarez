@@ -1,26 +1,23 @@
+@import "mixin";
 h1{
 	     font-size: $tamanio-texto;}
 h4{
+    @include padding-top-bottom(0px, 20px);
+    @include text(left, none);
          font-size: $tamanio-titulo;  
-         text-align: letf; 
-         padding-bottom: 20px; 
          color: $rosa;}
 h3{
+    @include padding-top-bottom(0px, 30px);
          font-size: $tamanio-pequeno; 
-         padding-bottom: 30px;
          color: $negro;}
 p{
          font-size: $tamanio-pequeno; 
          color: $negro;}
 textarea{
-         background-color: $blanco; 
-         width: 405px; 
-         height: 150px; 
-         border-radius: 5px;  
-         border-style: solid; 
-         border-width: 1px; 
-         border-color: $rosa; 
-         margin-top: 10px;  
-         padding-left: 10px;
-         margin-bottom: 20px; 
-         padding-top: 15px;}
+    @include ancho-y-largo(405px, 150px);
+    @include padding-left-right(10px,0px);
+    @include padding-top-bottom(15px,0px);
+    @include margin-bottom-top(20px, 10px);
+    @include background($blanco,none,none);
+    @include border($rosa, solid, 5px, 1px);
+        }
