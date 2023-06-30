@@ -2,8 +2,6 @@
 @import "tipografia";
 @import "medidas";
 @import "texto";
-@import "estructura";
-@import "boxes";
 @import "clases";
 @import "navs";
 @import "buttons";
@@ -41,7 +39,7 @@
       width: 75%;
     }
   }
-@media (max-width: 768px) {
+@media (max-width: 768px){
     h1 {
       color: red;
       font-size: 20px;

@@ -22,23 +22,34 @@
     @include ancho-y-largo(48%, none);}
 .sobreustexto{
     @include ancho-y-largo(48%,none);
-             p  {
+             .mejores-productos {
                 @include padding-top-bottom(30px, 15px);
                 @include text(justify, none);
                     font-weight: 300;
+                    color: aqua
+                }
+                .objetivo{
+                    @extend .mejores-productos;
+                    font-size: 20px;
+                    color: blue;
                 }
              h3 {
                 @include margin-bottom-top(15px,none);
-                 span{
-                    @include background($violeta,none,none); 
+                 .los-mejores-productos{
+                    @include background($verde,none,none); 
                     @include text(center, none);
                     @include ancho-y-largo(30px,30px);
                     @include padding-left-right(2px,2px);
                     @include margin-right-left(5px,none);
-                    color: $blanco;
+                    color: rgb(23, 4, 128);
                     border-radius: 50%;
                     display: inline-block;
                     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+                }
+                .nuestro-objetivo{
+                    @extend .los-mejores-productos;
+                    color:aqua;
+                    background-color: black;
                 }
                 }
             }
@@ -53,6 +64,9 @@
          color: $blanco;}
 .sobreimagenes{
         @include ancho-y-largo(350px, none)}
+.sobreimagenes2{
+    @extend .sobreimagenes;
+}
 .contact_form{	
     @include ancho-y-largo(460px, auto);
     @include padding-top-bottom(30px, 20px);
@@ -69,3 +83,6 @@
 .aviso{
          font-size: $tamanio-pequeno;  
          color: $negro;}
+.navbar navbar-expand-lg bg-body-tertiary{
+    background-color: aqua;
+}
