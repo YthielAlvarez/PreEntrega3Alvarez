@@ -8,19 +8,19 @@ h4 {
   text-align: left;
   text-decoration: none;
   font-size: 35px;
-  color: rgb(196, 50, 110);
+  color: #F48484;
 }
 
 h3 {
   padding-top: 0px;
   padding-bottom: 30px;
   font-size: 15px;
-  color: black;
+  color: #454545;
 }
 
 p {
   font-size: 15px;
-  color: black;
+  color: #454545;
 }
 
 textarea {
@@ -32,10 +32,10 @@ textarea {
   padding-bottom: 0px;
   margin-bottom: 20px;
   margin-top: 10px;
-  background-color: white;
+  background-color: #E8D2A6;
   background-size: none;
   background-attachment: none;
-  border-color: rgb(196, 50, 110);
+  border-color: #F48484;
   border-style: solid;
   border-radius: 5px;
   border-width: 1px;
@@ -44,7 +44,7 @@ textarea {
 .titulo {
   text-align: center;
   text-decoration: none;
-  color: violet;
+  color: #454545;
   font-size: 30px;
 }
 
@@ -93,18 +93,18 @@ textarea {
   text-align: justify;
   text-decoration: none;
   font-weight: 300;
-  color: aqua;
+  color: black;
 }
 .sobreustexto .objetivo {
   font-size: 20px;
-  color: blue;
+  color: black;
 }
 .sobreustexto h3 {
   margin-bottom: 15px;
   margin-top: none;
 }
 .sobreustexto h3 .los-mejores-productos, .sobreustexto h3 .nuestro-objetivo {
-  background-color: rgb(63, 233, 63);
+  background-color: #E0F9B5;
   background-size: none;
   background-attachment: none;
   text-align: center;
@@ -115,14 +115,14 @@ textarea {
   padding-right: 2px;
   margin-right: 5px;
   margin-left: none;
-  color: rgb(23, 4, 128);
+  color: #89375F;
   border-radius: 50%;
   display: inline-block;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
 }
 .sobreustexto h3 .nuestro-objetivo {
-  color: aqua;
-  background-color: black;
+  color: #89375F;
+  background-color: #E8D2A6;
 }
 
 .container {
@@ -135,7 +135,7 @@ textarea {
 }
 
 .footer p {
-  color: white;
+  color: #E8D2A6;
 }
 
 .sobreimagenes, .sobreimagenes2 {
@@ -148,7 +148,7 @@ textarea {
   height: auto;
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: white;
+  background-color: #E8D2A6;
   background-size: none;
   background-attachment: none;
   padding-left: 30px;
@@ -159,21 +159,49 @@ textarea {
 
 .formulario input:focus {
   outline: 0;
-  border: 1px solid rgb(63, 233, 63);
+  border: 1px solid #E0F9B5;
 }
 
 .formulario textarea:focus {
   outline: 0;
-  border: 1px solid rgb(63, 233, 63);
+  border: 1px solid #E0F9B5;
 }
 
 .aviso {
   font-size: 15px;
-  color: black;
+  color: #454545;
 }
 
 .navbar navbar-expand-lg bg-body-tertiary {
   background-color: aqua;
+}
+
+.grid-one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px, 300px, 100px, 300px;
+  justify-items: center;
+}
+.grid-one p {
+  font-size: 30px;
+}
+.grid-one img {
+  width: 460px;
+  height: 250px;
+}
+
+.grid-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100px, 300px, 100px, 300px;
+  justify-items: center;
+}
+.grid-two p {
+  font-size: 30px;
+}
+.grid-two img {
+  width: 460px;
+  height: 250px;
 }
 
 nav {
@@ -190,7 +218,7 @@ nav > a {
   text-decoration: none;
   margin-right: 10px;
   margin-left: 0px;
-  color: white;
+  color: #E8D2A6;
   font-size: 30px;
   display: block;
 }
@@ -206,10 +234,10 @@ button {
   padding-right: 5px;
   margin-bottom: 20px;
   margin-top: 10px;
-  background-color: rgb(196, 50, 110);
+  background-color: #F48484;
   background-size: none;
   background-attachment: none;
-  border-color: rgb(196, 50, 110);
+  border-color: #F48484;
   border-style: solid;
   border-radius: 10px;
   border-width: 0px;
@@ -217,11 +245,11 @@ button {
   cursor: pointer;
 }
 button p {
-  color: white;
+  color: #E8D2A6;
 }
 
 table {
-  border: black;
+  border: #454545;
 }
 table p {
   text-align: center;
@@ -230,12 +258,12 @@ table p {
 }
 
 input {
-  background-color: white;
+  background-color: #E8D2A6;
   background-size: none;
   background-attachment: none;
   width: 408px;
   height: 40px;
-  border-color: rgb(196, 50, 110);
+  border-color: #F48484;
   border-style: solid;
   border-radius: 5px;
   border-width: 1px;
@@ -248,7 +276,7 @@ input {
 header {
   width: 100%;
   height: 200px;
-  background-color: rgb(55, 226, 203);
+  background-color: #A5DEE5;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -259,7 +287,7 @@ body {
 }
 
 footer {
-  background-color: black;
+  background-color: #454545;
   background-size: none;
   background-attachment: none;
   padding: 60px 0;
@@ -268,7 +296,7 @@ footer {
 body {
   width: 100%;
   height: none;
-  background-color: rgb(196, 50, 110);
+  background-color: #F48484;
   background-size: none;
   background-attachment: none;
   font-family: "Noto Sans", sans-serif;
@@ -280,70 +308,201 @@ label {
 }
 
 span {
-  color: rgb(196, 50, 110);
+  color: #F48484;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 2600px) {
   h1 {
-    color: red;
+    color: #454545;
     font-size: 20px;
   }
   h2 {
     font-size: 30px;
     text-align: center;
     display: block;
+    color: #454545;
   }
   .titulo {
     font-size: 50px;
-    color: white;
+    color: #454545;
   }
   .sobreustexto h3 {
     font-size: 25px;
-    color: white;
+    color: black;
   }
   .sobreustexto p {
     font-size: 15px;
-    color: white;
+    color: black;
   }
   body {
-    background-color: violet;
+    background-color: #F48484;
   }
   .sobreimagenes, .sobreimagenes2 {
+    width: 75%;
+  }
+  .grid-one {
+    grid-template-rows: 75%, 75%, 75%, 75%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .grid-one .sobreimagenes, .grid-one .sobreimagenes2 {
+    width: 75%;
+  }
+  .grid-two {
+    grid-template-rows: 75%, 75%, 75%, 75%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .grid-two .sobreimagenes, .grid-two .sobreimagenes2 {
+    width: 75%;
+  }
+}
+@media (max-width: 1440px) {
+  h1 {
+    color: #454545;
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    color: #454545;
+  }
+  .titulo {
+    font-size: 50px;
+    color: #454545;
+  }
+  .sobreustexto h3 {
+    font-size: 25px;
+    color: black;
+  }
+  .sobreustexto p {
+    font-size: 15px;
+    color: black;
+  }
+  body {
+    background-color: #F48484;
+  }
+  .sobreimagenes, .sobreimagenes2 {
+    width: 75%;
+  }
+  .grid-one {
+    grid-template-rows: 75%, 75%, 75%, 75%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .grid-one .sobreimagenes, .grid-one .sobreimagenes2 {
+    width: 75%;
+  }
+  .grid-two {
+    grid-template-rows: 75%, 75%, 75%, 75%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .grid-two .sobreimagenes, .grid-two .sobreimagenes2 {
+    width: 75%;
+  }
+}
+@media (max-width: 1024px) {
+  h1 {
+    color: #454545;
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    color: #454545;
+  }
+  .titulo {
+    font-size: 50px;
+    color: #454545;
+  }
+  .sobreustexto h3 {
+    font-size: 25px;
+    color: black;
+  }
+  .sobreustexto p {
+    font-size: 15px;
+    color: black;
+  }
+  body {
+    background-color: #F48484;
+  }
+  .sobreimagenes, .sobreimagenes2 {
+    width: 75%;
+  }
+  .grid-one {
+    grid-template-rows: 75%, 75%, 75%, 75%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .grid-one .sobreimagenes, .grid-one .sobreimagenes2 {
+    width: 75%;
+  }
+  .grid-two {
+    grid-template-rows: 75%, 75%, 75%, 75%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .grid-two .sobreimagenes, .grid-two .sobreimagenes2 {
     width: 75%;
   }
 }
 @media (max-width: 768px) {
   h1 {
-    color: red;
+    color: #454545;
     font-size: 20px;
   }
   h2 {
     font-size: 30px;
     text-align: center;
     display: block;
+    color: #454545;
   }
   .titulo {
     font-size: 50px;
-    color: white;
+    color: #454545;
   }
   .sobreustexto h3 {
     font-size: 25px;
-    color: white;
+    color: black;
   }
   .sobreustexto p {
     font-size: 15px;
-    color: white;
+    color: black;
   }
   body {
-    background-color: violet;
+    background-color: #F48484;
   }
   .sobreimagenes, .sobreimagenes2 {
+    width: 75%;
+  }
+  .grid-one {
+    grid-template-rows: 75%, 75%, 75%, 75%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .grid-one .sobreimagenes, .grid-one .sobreimagenes2 {
+    width: 75%;
+  }
+  .grid-one p {
+    font-size: 90%;
+    text-align: center;
+    padding: 10%;
+  }
+  .grid-one .grid-two {
+    grid-template-rows: 75%, 75%, 75%, 75%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .grid-one .grid-two .sobreimagenes, .grid-one .grid-two .sobreimagenes2 {
     width: 75%;
   }
 }
 @media (max-width: 720px) {
   h1 {
-    color: red;
+    color: #454545;
     font-size: 11px;
   }
   .carrito {
@@ -353,7 +512,7 @@ span {
     margin: 1%;
     font-size: 20px;
     text-align: center;
-    color: red;
+    color: #454545;
   }
   .sobreustexto h3 {
     font-size: 25px;
@@ -365,13 +524,13 @@ span {
   }
   .titulo {
     font-size: 35px;
-    color: black;
+    color: #454545;
   }
   .sobreimagen {
     display: none;
   }
   body {
-    background-color: rgb(22, 141, 156);
+    background-color: #F48484;
   }
   .sobreimagenes, .sobreimagenes2 {
     width: 75%;
@@ -398,11 +557,32 @@ span {
   }
   #enviar {
     width: 90%;
+  }
+  .grid-one {
+    grid-template-rows: 75%, 75%, 75%, 75%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .grid-one .sobreimagenes, .grid-one .sobreimagenes2 {
+    width: 75%;
+  }
+  .grid-one p {
+    font-size: 90%;
+    text-align: center;
+    padding: 10%;
+  }
+  .grid-one .grid-two {
+    grid-template-rows: 75%, 75%, 75%, 75%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .grid-one .grid-two .sobreimagenes, .grid-one .grid-two .sobreimagenes2 {
+    width: 75%;
   }
 }
 @media (max-width: 480px) {
   h1 {
-    color: red;
+    color: #454545;
     font-size: 11px;
   }
   .carrito {
@@ -412,7 +592,7 @@ span {
     margin: 1%;
     font-size: 20px;
     text-align: center;
-    color: red;
+    color: #454545;
   }
   .sobreustexto h3 {
     font-size: 25px;
@@ -424,13 +604,13 @@ span {
   }
   .titulo {
     font-size: 35px;
-    color: black;
+    color: #454545;
   }
   .sobreimagen {
     display: none;
   }
   body {
-    background-color: rgb(17, 190, 104);
+    background-color: #F48484;
   }
   .sobreimagenes, .sobreimagenes2 {
     width: 75%;
@@ -457,6 +637,27 @@ span {
   }
   #enviar {
     width: 90%;
+  }
+  .grid-one {
+    grid-template-rows: 75%, 75%, 75%, 75%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .grid-one .sobreimagenes, .grid-one .sobreimagenes2 {
+    width: 75%;
+  }
+  .grid-one p {
+    font-size: 90%;
+    text-align: center;
+    padding: 10%;
+  }
+  .grid-one .grid-two {
+    grid-template-rows: 75%, 75%, 75%, 75%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .grid-one .grid-two .sobreimagenes, .grid-one .grid-two .sobreimagenes2 {
+    width: 75%;
   }
 }
 

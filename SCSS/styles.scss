@@ -10,67 +10,205 @@
 @import "main";
 @import "labelyspan";
 @import "mixin";
+@media (max-width: 2600px) {
+  h1 {
+    color: #454545;
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    color: #454545;
+  }
+  .titulo {
+    font-size: 50px;
+    color: #454545;
+  }
+  .sobreustexto h3 {
+    font-size: 25px;
+    color: black;
+  }
+  .sobreustexto p {
+    font-size: 15px;
+    color: black;
+  }
+  body {
+    background-color: #F48484;
+  }
+  .sobreimagenes {
+    width: 75%;
+  }
+  .grid-one{
+    grid-template-rows: 75%,  75%, 75%,  75%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    .sobreimagenes{
+      width: 75%;
+    }
+  
+  }
+  .grid-two{
+    grid-template-rows: 75%,  75%, 75%,  75%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    .sobreimagenes{
+      width: 75%;
+    }
+  
+  }
+}
+@media (max-width: 1440px) {
+  h1 {
+    color: #454545;
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    color: #454545;
+  }
+  .titulo {
+    font-size: 50px;
+    color: #454545;
+  }
+  .sobreustexto h3 {
+    font-size: 25px;
+    color: black;
+  }
+  .sobreustexto p {
+    font-size: 15px;
+    color: black;
+  }
+  body {
+    background-color: #F48484;
+  }
+  .sobreimagenes {
+    width: 75%;
+  }
+  .grid-one{
+    grid-template-rows: 75%,  75%, 75%,  75%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    .sobreimagenes{
+      width: 75%;
+    }
+  
+  }
+  .grid-two{
+    grid-template-rows: 75%,  75%, 75%,  75%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    .sobreimagenes{
+      width: 75%;
+    }
+  
+  }
+}
 @media (max-width: 1024px) {
     h1 {
-      color: red;
+      color: #454545;
       font-size: 20px;
     }
     h2 {
       font-size: 30px;
       text-align: center;
       display: block;
+      color: #454545;
     }
     .titulo {
       font-size: 50px;
-      color: white;
+      color: #454545;
     }
     .sobreustexto h3 {
       font-size: 25px;
-      color: white;
+      color: black;
     }
     .sobreustexto p {
       font-size: 15px;
-      color: white;
+      color: black;
     }
     body {
-      background-color: violet;
+      background-color: #F48484;
     }
     .sobreimagenes {
       width: 75%;
+    }
+    .grid-one{
+      grid-template-rows: 75%,  75%, 75%,  75%;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      .sobreimagenes{
+        width: 75%;
+      }
+    
+    }
+    .grid-two{
+      grid-template-rows: 75%,  75%, 75%,  75%;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      .sobreimagenes{
+        width: 75%;
+      }
+    
     }
   }
 @media (max-width: 768px){
     h1 {
-      color: red;
+      color: #454545;
       font-size: 20px;
     }
     h2 {
       font-size: 30px;
       text-align: center;
       display: block;
+      color: #454545;
     }
     .titulo {
       font-size: 50px;
-      color: white;
+      color: #454545;
     }
     .sobreustexto h3 {
       font-size: 25px;
-      color: white;
+      color: black;
     }
     .sobreustexto p {
       font-size: 15px;
-      color: white;
+      color: black;
     }
     body {
-      background-color: violet;
+      background-color: #F48484;
     }
     .sobreimagenes {
       width: 75%;
     }
+    .grid-one{
+      grid-template-rows: 75%, 75%, 75%, 75%;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      .sobreimagenes{
+        width: 75%;
+      }
+      p{
+        font-size: 90%;
+        text-align: center;
+        padding: 10%;
+      }
+      .grid-two{
+        grid-template-rows: 75%,  75%, 75%,  75%;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        .sobreimagenes{
+          width: 75%;
+        }
+      
+      }
   }
+}
   @media (max-width: 720px) {
     h1 {
-      color: red;
+      color: #454545;
       font-size: 11px;
     }
     .carrito {
@@ -80,7 +218,7 @@
       margin: 1%;
       font-size: 20px;
       text-align: center;
-      color: red;
+      color: #454545;
     }
     .sobreustexto h3 {
       font-size: 25px;
@@ -92,13 +230,13 @@
     }
     .titulo {
       font-size: 35px;
-      color: black;
+      color: #454545;
     }
     .sobreimagen {
       display: none;
     }
     body {
-      background-color: rgb(22, 141, 156);
+      background-color: #F48484;
     }
     .sobreimagenes {
         width: 75%;
@@ -126,10 +264,32 @@
     #enviar {
       width: 90%;
     }
+    .grid-one{
+      grid-template-rows: 75%, 75%, 75%, 75%;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      .sobreimagenes{
+        width: 75%;
+      }
+      p{
+        font-size: 90%;
+        text-align: center;
+        padding: 10%;
+      }
+      .grid-two{
+        grid-template-rows: 75%,  75%, 75%,  75%;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        .sobreimagenes{
+          width: 75%;
+        }
+      
+      }
+  }
   }
   @media (max-width: 480px) {
     h1 {
-      color: red;
+      color: #454545;
       font-size: 11px;
     }
     .carrito {
@@ -139,7 +299,7 @@
       margin: 1%;
       font-size: 20px;
       text-align: center;
-      color: red;
+      color: #454545;
     }
     .sobreustexto h3 {
       font-size: 25px;
@@ -151,13 +311,13 @@
     }
     .titulo {
       font-size: 35px;
-      color: black;
+      color: #454545;
     }
     .sobreimagen {
       display: none;
     }
     body {
-      background-color: rgb(17, 190, 104);
+      background-color: #F48484;
     }
     .sobreimagenes {
         width: 75%;
@@ -185,4 +345,26 @@
     #enviar {
       width: 90%;
     }
+    .grid-one{
+      grid-template-rows: 75%, 75%, 75%, 75%;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      .sobreimagenes{
+        width: 75%;
+      }
+      p{
+        font-size: 90%;
+        text-align: center;
+        padding: 10%;
+      }
+      .grid-two{
+        grid-template-rows: 75%,  75%, 75%,  75%;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        .sobreimagenes{
+          width: 75%;
+        }
+      
+      }
+  }
   }

@@ -26,12 +26,12 @@
                 @include padding-top-bottom(30px, 15px);
                 @include text(justify, none);
                     font-weight: 300;
-                    color: aqua
+                    color: black;
                 }
                 .objetivo{
                     @extend .mejores-productos;
                     font-size: 20px;
-                    color: blue;
+                    color: black;
                 }
              h3 {
                 @include margin-bottom-top(15px,none);
@@ -41,15 +41,15 @@
                     @include ancho-y-largo(30px,30px);
                     @include padding-left-right(2px,2px);
                     @include margin-right-left(5px,none);
-                    color: rgb(23, 4, 128);
+                    color: #89375F;
                     border-radius: 50%;
                     display: inline-block;
                     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
                 }
                 .nuestro-objetivo{
                     @extend .los-mejores-productos;
-                    color:aqua;
-                    background-color: black;
+                    color:#89375F;
+                    background-color: #E8D2A6;
                 }
                 }
             }
@@ -85,4 +85,28 @@
          color: $negro;}
 .navbar navbar-expand-lg bg-body-tertiary{
     background-color: aqua;
+}
+.grid-one{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px, 300px, 100px, 300px;
+    justify-items: center;
+    p{
+      font-size: $tamanio-subtitulo;
+    }
+    img{
+      @include ancho-y-largo(460px, 250px);
+    }
+}
+.grid-two{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px, 300px, 100px, 300px;
+    justify-items: center;
+    p{
+        font-size: $tamanio-subtitulo;
+    }
+    img{
+        @include ancho-y-largo(460px, 250px);
+    }
 }
